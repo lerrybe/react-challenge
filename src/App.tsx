@@ -1,22 +1,5 @@
-import styled from "styled-components";
-
-const Title = styled.h1`
-  color: ${(props) => props.theme.textColor};
-`;
-
-const Wrapper = styled.div`
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
-  background-color: ${(props) => props.theme.bgColor};
-`;
+import Router from "./Router";
 
 export default function App() {
-  return (
-    <Wrapper>
-      <Title>Hello</Title>
-    </Wrapper>
-  );
+  return <Router />;
 }
