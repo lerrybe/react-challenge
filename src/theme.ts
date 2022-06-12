@@ -2,6 +2,7 @@ import { DefaultTheme } from "styled-components";
 
 // implement theme at here (as same as interface properties)
 export const theme: DefaultTheme = {
-  textColor: "#fff",
-  bgColor: "#000",
+  bgColor: "#2f3640",
+  textColor: "#f5f6fa",
+  accentColor: "#4cd137",
 };
